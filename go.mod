@@ -12,11 +12,11 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/submariner-io/admiral v0.6.0-pre1
 	github.com/submariner-io/shipyard v0.5.0
-	k8s.io/api v0.17.0
-	k8s.io/apimachinery v0.17.0
+	k8s.io/api v0.17.8
+	k8s.io/apimachinery v0.17.8
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/klog v1.0.0
-	sigs.k8s.io/controller-runtime v0.3.0
+	sigs.k8s.io/controller-runtime v0.5.9
 )
 
 // Pinned to kubernetes-1.17.0
