@@ -22,10 +22,9 @@ on:
 jobs:
   check:
     name: Check Dependencies
-    if: github.repository_owner == 'submariner-io'
     runs-on: ubuntu-latest
     steps:
-      - uses: z0al/dependent-issues@1208b4dd978973b14de5b0b227a2871dbbf34ffb
+      - uses: skitt/dependent-issues@6bfa2c23d254769c60e03b720ab44a5d04708dbe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
